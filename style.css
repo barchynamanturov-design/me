@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsla(313, 39%, 93%, 1);
+
+background: linear-gradient(90deg, hsla(313, 39%, 93%, 1) 0%, hsla(193, 81%, 84%, 1) 0%, hsla(320, 78%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(313, 39%, 93%, 1) 0%, hsla(193, 81%, 84%, 1) 0%, hsla(320, 78%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(313, 39%, 93%, 1) 0%, hsla(193, 81%, 84%, 1) 0%, hsla(320, 78%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F4E6F1", endColorstr="#B3E8F7", GradientType=1 );
+}
+
+.main{
+    width: 300px;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: hsla(43, 83%, 93%, 1);
+
+background: linear-gradient(90deg, hsla(43, 83%, 93%, 1) 0%, hsla(305, 64%, 83%, 1) 100%, hsla(289, 79%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(43, 83%, 93%, 1) 0%, hsla(305, 64%, 83%, 1) 100%, hsla(289, 79%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(43, 83%, 93%, 1) 0%, hsla(305, 64%, 83%, 1) 100%, hsla(289, 79%, 68%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FCF4DF", endColorstr="#EFB7EA", GradientType=1 );
+    box-shadow: 0px 0px 30px 4px black;
+}
+
+.main:hover{
+    background: hsla(228, 17%, 53%, 1);
+
+background: linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1 );
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: 3s;
+}
+
+img:hover{
+    border-radius: 50%;
+    transform: 3s;
+}
+
+p{
+    color: rgb(0, 115, 255);
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 115, 255);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
